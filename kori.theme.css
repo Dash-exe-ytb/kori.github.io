@@ -1,0 +1,183 @@
+/**
+* @name Comfy
+* @author ! Утa#0001
+* @description
+* @invite 8YQXuRCrgS
+* @version 2.2.1
+* @donate ! Утa#0001
+*/
+
+@import "https://comfy-themes.github.io/Discord/betterdiscord/main.css";
+
+/* No scrollbars */
+@import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css";
+
+/* Better SpotifyControls seek bar */
+@import "https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css";
+
+:root {
+  /* Animations */
+  --disable-animations: 2s channel-unread infinite;
+
+  /* Background in the status picker */
+ /* --status-background: url("https://i.imgur.com/ODa8LKK.jpg"); */ 
+
+  /* ⚙️ 🎤 🎧 ・ User button */
+  /* Spacing : 8px */
+  --user-buttons-spacing: 8px;
+
+  /* Color : #096DC0 */
+  --user-buttons-color: #0059a1;
+
+/*  Roundness settings
+    A higher value will means more rounded corners and a lower ...
+    0 ➜ Square
+    25 ➜ Circle */
+  /* Avatars : 5px */
+  --avatar-radius: 11px;
+
+  /* Status : 3px */
+  --status-radius: 5px;
+
+  /* Servers : 8px */
+  --server-radius: 20px;
+
+  /* Colored emoji picker */
+  /* Change the value to "100%" if you want the default one */
+  --colored-emoji: grayscale(0%);
+
+  /* Server/channel list */
+
+  /* Mention : #F04747 */
+  --mention-color: #f04747;
+
+  /* Unread : #7289DA */
+  --unread-color: #7289da;
+
+  /* 🔴 Mention colors in chat */
+
+  /* Bar on the right : #C66262 */
+  --mention-color-bar: #c66262;
+
+  /* Background : #C662621F */
+  --mention-color-background: #c662621f;
+
+  /* On hover : #C6626226 */
+  --mention-color-hover: #c6626226;
+
+  /* Chat buttons */
+
+  /* Default value : #7289DA */
+  --chat-buttons: #7289da;
+
+  /* SpotifyControls seek bar
+  /* Default value : #1EDC62 */
+  --spotify-color: #1edc62;
+
+  /* Status */
+
+  /* Online : #43B581 */
+  --online: #43b581;
+
+  /* Iddle : #FAA61A */
+  --iddle: #faa61a;
+
+  /* Do Not Disturb : #F04747 */
+  --dnd: #f04747;
+
+  /* Offline : #747F8D */
+  --offline: #747f8d;
+
+  /* Streaming : #593695 */
+  --streaming: #593695;
+
+  /* User popout */
+
+  /* Playing wave color */
+  --playing: #7289da;
+
+  /* Listening wave color */
+  --listening: #007fd4;
+
+  /* Role circle 5px */
+  --role-circle: 5px;
+
+  /* Discord logo */
+  --discord-logo: none;
+}
+
+.theme-dark {
+  --background-primary: #23283d;
+  --background-secondary: #1e2233;
+  --background-secondary-alt: #0e1322;
+  --background-tertiary: #101320;
+  --background-mobile-primary: #23283d;
+  --background-mobile-secondary: #1e2233;
+  --channeltextarea-background: #191f2e;
+  --background-accent: #7289da;
+  --background-message-hover: transparent;
+  --background-modifier-hover: #00000010;
+  --background-modifier-active: #0000001a;
+  --background-modifier-selected: #0000001f;
+  --deprecated-card-bg: #12141f63;
+  --background-floating: #101320;
+  --deprecated-quickswitcher-input-background: #101320;
+  --elevation-low: none;
+  --scrollbar-auto-thumb: #121722;
+  --scrollbar-auto-track: #0048ff;
+  --scrollbar-thin-thumb: #141925;
+  --activity-card-background: #101320;
+}
+
+.theme-light {
+  --background-primary: #23283d;
+  --background-secondary: #1e2233;
+  --background-secondary-alt: #191f2e;
+  --background-tertiary: #101320;
+  --background-accent: #7289da;
+  --background-modifier-hover: #262b41;
+  --background-modifier-active: #262b41;
+  --header-primary: #fff;
+  --header-secondary: #b1b5b9;
+  --text-normal: #8e9297;
+}
+
+/* Rounded Context Menu */
+
+.menu-1QACrS, .colorDefault-CDqZdO { 
+  border-radius: 25px; 
+}
+
+/* Minified Search Bar */ 
+
+:root {
+  --transitionspeed: 0.25s;
+}
+
+.search-2Mwzzq:not(.open-1F8u2c) .searchBar-jGtisZ {width: 27px; transition: var(--transitionspeed); background-color: transparent;}
+.search-2Mwzzq:not(.open-1F8u2c):hover .searchBar-jGtisZ {width: 170px; background-color: var(--background-tertiary);}
+.search-2Mwzzq:not(.open-1F8u2c) .iconContainer-1RqWJj {transform: scale(1.3); transition: var(--transitionspeed);}
+.search-2Mwzzq:not(.open-1F8u2c):hover .iconContainer-1RqWJj {transform: scale(1);}
+.search-2Mwzzq:not(.open-1F8u2c) .icon-18rqoe {color: var(--text-normal);}
+.search-2Mwzzq:not(.open-1F8u2c):hover .icon-18rqoe {color: var(--text-muted);}
+
+/* Compact channels catégories */
+
+:root {
+  --category-spacing: 0px;
+  --channel-spacing: 4px;
+}
+
+.containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
+  padding-top: var(--category-spacing);
+}
+
+.mainContent-20q_Hp {
+  padding: var(--channel-spacing);
+}
+
+/* Channel Names Capitalized */
+
+.channelName-3KPsGw {
+text-transform: capitalize;
+}
